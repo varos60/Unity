@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Camera\PixelPerfect.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Player\PlayerControl.cs" Line="33" Column="89" />
+      <File FileName="Assets\Scripts\Camera\CameraHelper2D.cs" Line="65" Column="2" />
+      <File FileName="Assets\Scripts\Camera\PixelPerfect.cs" Line="14" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
