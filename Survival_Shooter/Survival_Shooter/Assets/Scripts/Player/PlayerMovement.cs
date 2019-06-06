@@ -37,15 +37,17 @@ public class PlayerMovement : MonoBehaviour
 
     void Turning()
     {
-        Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);        
         RaycastHit floorHit;
+        Debug.DrawRay(camRay.origin, camRay.direction, Color.yellow);            
 
         if (Physics.Raycast(camRay, out floorHit, camRayLength, floorMask))
         {
-            Vector3 playerToMouse = floorHit.point - transform.position;
+            Vector3 playerToMouse = floorHit.point - transform.position;            
+            Debug.Log("PlayerToMouse: " + floorHit.point + " - " + transform.position + " = " + playerToMouse);
             playerToMouse.y = 0f;
-            Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
-            playerRigidbody.MoveRotation(newRotation);
+            Quaternion newRotation = Quaternion.LookRotation(playerToMouse);            
+            playerRigidbody.MoveRotation(newRotation);            
         }
     }
 
