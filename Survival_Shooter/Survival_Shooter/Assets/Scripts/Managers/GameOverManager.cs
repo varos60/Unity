@@ -3,8 +3,6 @@
 public class GameOverManager : MonoBehaviour
 {
     public PlayerHealth playerHealth;
-
-
     Animator anim;
 
 
@@ -19,6 +17,7 @@ public class GameOverManager : MonoBehaviour
         if (playerHealth.currentHealth <= 0)
         {
             anim.SetTrigger("GameOver");
+            
         }
     }
 }
