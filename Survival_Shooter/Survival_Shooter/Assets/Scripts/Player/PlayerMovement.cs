@@ -8,7 +8,9 @@ public class PlayerMovement : MonoBehaviour
     Animator anim;
     Rigidbody playerRigidbody;
     int floorMask;
-    float camRayLength = 100f;
+    //float camRayLength = 100f;
+    public VJHandler joystick_izquierdo;
+    public VJHandler joystick_derecho;
 
     void Awake()
     {
@@ -19,8 +21,10 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
+        //float h = Input.GetAxisRaw("Horizontal");
+        //float v = Input.GetAxisRaw("Vertical");
+        float h = joystick_izquierdo.InputDirection.x;
+        float v = joystick_izquierdo.InputDirection.y;                
 
         Move(h, v);
         Turning();
@@ -35,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         playerRigidbody.MovePosition(transform.position + movement);
     }
 
-    void Turning()
+    /*void Turning()
     {
         Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);        
         RaycastHit floorHit;
@@ -47,6 +51,19 @@ public class PlayerMovement : MonoBehaviour
             playerToMouse.y = 0f;
             Quaternion newRotation = Quaternion.LookRotation(playerToMouse);            
             playerRigidbody.MoveRotation(newRotation);            
+        }
+    }*/
+
+    void Turning()
+    {
+        Vector3 direction = new Vector3(joystick_derecho.InputDirection.x, 0, joystick_derecho.InputDirection.y);
+        if (direction != Vector3.zero)
+        {
+            Vector3 playerToMouse = direction;
+            playerToMouse.y = 0f;            
+            Quaternion newRotation = Quaternion.LookRotation(playerToMouse, Vector3.up);
+            Debug.Log(newRotation);
+            playerRigidbody.MoveRotation(newRotation);
         }
     }
 

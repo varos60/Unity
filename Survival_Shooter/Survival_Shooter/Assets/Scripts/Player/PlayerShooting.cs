@@ -16,6 +16,7 @@ public class PlayerShooting : MonoBehaviour
     AudioSource gunAudio;
     Light gunLight;
     float effectsDisplayTime = 0.2f;
+    public VJHandler joystick_derecho;
 
 
     void Awake ()
@@ -32,7 +33,7 @@ public class PlayerShooting : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-		if(Input.GetButton ("Fire1") && timer >= timeBetweenBullets && Time.timeScale != 0)
+		if(joystick_derecho.press && timer >= timeBetweenBullets && Time.timeScale != 0)
         {
             Shoot ();
         }
