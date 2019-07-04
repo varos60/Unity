@@ -17,6 +17,7 @@ public class PlayerShooting : MonoBehaviour
     Light gunLight;
     float effectsDisplayTime = 0.2f;
     public VJHandler joystick_derecho;
+    public Light point_light;
 
 
     void Awake ()
@@ -49,6 +50,7 @@ public class PlayerShooting : MonoBehaviour
     {
         gunLine.enabled = false;
         gunLight.enabled = false;
+        point_light.enabled = false;
     }
 
 
@@ -59,6 +61,7 @@ public class PlayerShooting : MonoBehaviour
         gunAudio.Play ();
 
         gunLight.enabled = true;
+        point_light.enabled = true;
 
         gunParticles.Stop ();
         gunParticles.Play ();

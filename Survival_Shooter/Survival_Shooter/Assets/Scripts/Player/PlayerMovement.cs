@@ -61,8 +61,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 playerToMouse = direction;
             playerToMouse.y = 0f;            
-            Quaternion newRotation = Quaternion.LookRotation(playerToMouse, Vector3.up);
-            Debug.Log(newRotation);
+            Quaternion newRotation = Quaternion.LookRotation(playerToMouse, Vector3.up);            
             playerRigidbody.MoveRotation(newRotation);
         }
     }

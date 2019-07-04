@@ -1,44 +1,48 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
 using UnityEngine.Audio;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
-public class PauseManager : MonoBehaviour
-{
+public class PauseManager : MonoBehaviour {
+    
     Canvas canvas;
-
     public AudioMixerSnapshot paused;
     public AudioMixerSnapshot unpaused;
+    public Slider musicSlider;
+    public Slider FXSlider;
 
-    // Start is called before the first frame update
     void Start()
     {
         canvas = GetComponent<Canvas>();
+        canvas.enabled = false;
+        LoadState();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            canvas.enabled = !canvas.enabled;
             Pause();
         }
     }
-
+    
     public void Pause()
     {
+        canvas.enabled = !canvas.enabled;
         Time.timeScale = Time.timeScale == 0 ? 1 : 0;
         Lowpass();
+        if (!canvas.enabled)
+        {
+            SaveState();
+        }
     }
 
     void Lowpass()
     {
-        if(Time.timeScale == 0)
+        if (Time.timeScale == 0)
         {
             paused.TransitionTo(.01f);
         }
@@ -50,10 +54,23 @@ public class PauseManager : MonoBehaviour
 
     public void Quit()
     {
-#if UNITY_EDITOR
+        SaveState();
+        #if UNITY_EDITOR 
         EditorApplication.isPlaying = false;
-#else
+        #else 
         Application.Quit();
-#endif
+        #endif
+    }
+
+    void LoadState()
+    {
+        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1f);
+        FXSlider.value = PlayerPrefs.GetFloat("FXVolume", 1f);
+    }
+
+    void SaveState()
+    {
+        PlayerPrefs.SetFloat("MusicVolume", musicSlider.value);
+        PlayerPrefs.SetFloat("FXVolume", FXSlider.value);
     }
 }
