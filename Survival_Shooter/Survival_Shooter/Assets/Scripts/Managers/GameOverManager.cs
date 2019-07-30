@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class GameOverManager : MonoBehaviour
 {
     public PlayerHealth playerHealth;
+    public Text rondaText;
     Animator anim;
-
+    EnemyManager enemyManager;
 
     void Awake()
     {
         anim = GetComponent<Animator>();
+        enemyManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemyManager>();
     }
 
 
@@ -19,5 +22,11 @@ public class GameOverManager : MonoBehaviour
             anim.SetTrigger("GameOver");
             
         }
+    }
+
+    public void ChangeRound()
+    {
+        rondaText.text = "RONDA<br>" + enemyManager.ronda;
+        rondaText.text = rondaText.text.Replace("<br>", "\n");
     }
 }

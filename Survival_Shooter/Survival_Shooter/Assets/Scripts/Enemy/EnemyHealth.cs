@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour
     public float sinkSpeed = 2.5f;
     public int scoreValue = 10;
     public AudioClip deathClip;
-
+    public int type;
 
     Animator anim;
     AudioSource enemyAudio;
@@ -15,6 +15,7 @@ public class EnemyHealth : MonoBehaviour
     CapsuleCollider capsuleCollider;
     bool isDead;
     bool isSinking;
+    EnemyManager enemyManager;
 
 
     void Awake ()
@@ -23,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
         enemyAudio = GetComponent <AudioSource> ();
         hitParticles = GetComponentInChildren <ParticleSystem> ();
         capsuleCollider = GetComponent <CapsuleCollider> ();
-
+        enemyManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemyManager>();
         currentHealth = startingHealth;
     }
 
@@ -65,7 +66,16 @@ public class EnemyHealth : MonoBehaviour
         anim.SetTrigger ("Dead");
 
         enemyAudio.clip = deathClip;
-        enemyAudio.Play ();
+        enemyAudio.Play ();        
+        if (type == 0)
+        {
+            enemyManager.elSpawnLeft--;
+        }
+        else
+        {
+            enemyManager.normalSpawnLeft--;
+        }
+        Debug.Log("Left N: " + enemyManager.normalSpawnLeft + " - Left E: " + enemyManager.elSpawnLeft);
     }
 
 

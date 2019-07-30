@@ -1,0 +1,103 @@
+Elementos: Aire, tierra, fuego, agua, rayo, luz, oscuridad
+
+Instintos: 
+Son capacidades innatas que pueden tener los sensibles a la magia.
+Sensor (detecta la magia), Premonitor (premoniciones), adivinador(adivinaciones, oraculos, profecias), regulador (puede regular su poder y camuflarse para que los sensores no los detecten), abosorcion (puede recuperar energia de manera mucho mas rapida al cogerla del ambiente), drenadores (drenan la energia).
+
+Herencia: son unos genes que se trasmiten de padres a hijos. Cada uno posee cuatro genes que son Aire, Agua, Tierra, Fuego, Rayo o ninguno. Se heredan 2 del padre y 2 de la madre. 
+La Luz es una mutacion de los genes que convierten los 4 en luz, estos se traspasan como muertos a la descendencia. Los genes sin elemento se llaman genes muertos. La oscuridad no se hereda.
+
+Teoria universal:
+Se puede generar fuera del cuerpo y lejos pero a mayor distancia mas debil y mas energia necesita. La energía usa la resistencia fisica y la energia interna para usar cualquier tipo de magia.
+    -Restricciones: 
+    -Debilidades:
+    -Costes:
+    -Combinar:
+    -Prohibiciones:
+    -Atajos:
+    -Caracteristicas Fisicas:
+    -Ventajas:
+    -Aumentos de Poder:
+    ¿Cómo se logra el acceso a la magia? 
+    ¿De dónde sale el poder mágico?
+    ¿Con qué frecuencia se puede utilizar la magia? 
+    ¿Requiere algún tipo de herramienta especial? 
+    ¿Algún estado de ánimo concreto o ingrediente específico?     
+    Extrapolar(hacerte preguntas de que pasaria si):   
+    Relacionar (como relacionar los poderes, como hacer que funcionen juntos): 
+    Exploits: (Consiste en sacarle el maximo partido a los poderes): 
+    Equilibrio(todo debe estar equilibrado:
+
+Rayo:
+El cuerpo es capaz de mezclar la resistencia fisica con la energia interna y transformarla en electricidad. Con esa electricidad se pueden hacer muchas cosas, una descarga electrica por ejemplo para hacer un rayo.
+La electricidad bajo el agua se expande en todas direcciones, en area. Como el agua conduce la electricidad el usuario que la lanza tambien se ve afectado. Solo se desplaza en area bajo el agua.
+Cuando cae sobre el agua se expande por la superficie del agua y un poco en la profundidad. La sal es un buen conductor y estar bajo el agua aumenta el voltaje pero baja la conduccion.
+Al usarlo el usuario que lo usa recibe tambien una descarga, lo que lo debilita, pierde algo de salud y hace que su aguante y la magia se recuperen de manera mas lenta por el entumecimiento de los musculos tras la descarga.
+Cuanto mayor sea la descarga mayor es el efecto negativo que se recibe.
+Usar las descargas es el mas letal junto al fuego. Ademas los usuarios del Rayo tienen mayor agilidad que las demas personas porque la corriente electrica que va desde las neuronas a los musculos fluye mejor.
+Los fuertes campos magneticos les producen jaqueca y los dias de tormenta electrica, en el que el ambiente esta cargado de electricidad sus decargas se hacen mucho mas fuertes y se reduce el grado de daño que se recibe.
+Son mas propensos a la electricidad estatica y pueden dar calambres al tocarlos (rara vez pero mas frecuente que los demas). Tambien suelen ser mas impulsivos en cuanto a personalidad por los genes que llevan,
+a mas genes de rayo, más propenso a ser impulsivos son (incoscientemente)
+Se podría pasar una corriente por tus musculos durante un periodo de tiempo para hacerte muy muy rapido (y con la inercia pegar mas fuerte) aunque esto dura muy poco, ya que la tension que ejerce en los musculos y las magulladuras
+son muy graves. Produce desgarros en los musculos y un entumecimiento masivo que puede incluso llegar al desmacho y a la paralisis temporal del cuerpo.
+Tambien se podria crear un campo electrico y detectar los cambios  en ese campo para "ver" o ser como un radar para detectar cosas que se muevan dentro de ese campo.
+Tambien se podria jugar con los campos magneticos y generar imanes. (Sigue todos los principios de la electricidad)
+
+Fuego:
+
+Agua:
+
+Tierra:
+
+Aire:
+
+Luz:
+
+Oscuridad: Aunque se llame oscuridad, es la capacidad en modificar directamente la materia, solo fisicamente y geneticamente. Cualquiera, tenga genes para usar algun elemento o no, puede usar la oscuridad siempre dentro de las capacidades de la persona.
+
+---------------------------------------------
+Animagos/polimorfismo:
+
+
+Sellos:
+Los sellos van asociados a la oscuridad. Dependiendo de lo que se intente sellar y cuanto mas poder se quiera sellar se requiere emplear más o menos oscuridad.
+    - Recipiente: Lo primero a tener en cuenta es el recipiente. El recipiente debe de poder almacenar lo que se quiera sellar. Tiene que tener la suficiente resistencia para resistir la carga de poder. El sello influye directamente
+        en el recipiente, pudiendo desgastarse, deformarse y obtener una forma especifica por la influencia del sello o romperse por la carga. Además si intentas sellar algo muy poderoso en objetos poco resisitentes, se romperan nada más
+        intentar sellar en ellos. 
+        El recipiente obtiene una marca dependiendo del sello que se use y lo que se selle.
+    - Liberación: El sello se rompe cuando el recipiente se destruye. Si el recipiente es orgánico, se liberaría cuando muere. Se puede anular un sello, mediante magia si se hace una liberacion de sello. Para hacerlo se necesita mas fuerza que
+        la resistencia del recipiente y mas fuerza que se aplicó para crear el sello. Solo hay una excepcion y es que para romper los sellos que se han hecho con condiciones, como por ejemplo se le pone la condicion que se libere solo mientras se aplica magia sobre el sello,
+        son mas complejos de liberar de esta manera pues poseen mas restricciones, no solo depende de la fuerza del recipiente + la fuerza de sellador. Si se quisiera anular este sello sin desturir el recipiente se tendria que 
+        aplicar mas magia que la que se aplico para crearlo, aplicar mas magia que la resistencia del sello y por ultimo aplicar magia como condicion para liberarlo.
+    - Proceso de Sellado: Primero la persona que sella, debe de tener más poder o igual que lo que esta sellando, si no fallaría. Se puede hacer un sello entre varios para sellar cosas más fuertes que uno mismo.
+        Cuanto más fuerte es lo que se sella, mas oscuridad se necesita lo que repercute negativamente en el sellador. En la practica lo que hace es modificar la materia de lo que se va a sellar y del recipiente para acoplarse y encerrar ese
+        objetivo en el recipiente.
+    - Lo sellado: Si es algo con vida, este se puede resistir dificultando mucho mas el proceso de sellado. Necesita estar parado y tener contacto directo (como toda lo que se quiere modificar con oscuridad). Se puede sellar magia,
+        lo que da como resultado los objetos encantados. Se pueden sellar objetos en objetos, y anidarlo en otro objeto. Todo depende del sellador.
+    - Sellador: Tambien llamado Conjurador o Invocador. Debe tener mas poder de lo que esta sellando. Puede haber varios selladores para facilitar la tarea. Tiene que tener contacto directo con lo que esta sellando. El sellador usa la oscuridad para sellar por lo 
+        que necesita saber manejarla, aunque se dan casos en personas sin haber usado nunca la magia que en situaciones extremas son capaces de hacerlo incoscientemente.
+        El sellador es el que decide que simbolo o marca tendra el recipiente pues es el quien lo modifica tambien. Por supuesto el proceso, como usa energia interna, agota enormemente.
+    - Acciones: El sellador puede hacer lo que se lo ocurra. Se puede sellar una cantidad de magia en un objeto que se deba recargar, se puede sellar magia en un objeto y modificarlo con oscuridad para que sea una fuente de magia que se autorecargue,
+        Se puede sellar un objeto y que al aplicar magia al recipiente se liberé mientras se aplique magia sobre el recipiente y se selle de nuevo cuando se deje de aplicar. Todo depende de la imaginacion del sellador.
+        
+    Tipos de Sellos:
+        Maldiciones:   
+            Una maldicion es un sello que tiene siempre atañe conotaciones negativa, desde mala suerte hasta una transformacion fisica.
+            - Sellador: Son capaces de hacerlas cualquier persona. Una persona que no controla la oscuridad es muy improbable que lo haga, pero por instinto, en situacion de riesgo extremo, desesperacion, ira o pena podrían ocurrir.
+                Para maldiciones más complejas se requiere un mago que sepa controlar la oscuridad a voluntad.
+            - Recipiente: 
+            - Proceso de sellado:
+            - Sellado: 
+            - Liberacion:
+            Consiste en un sello y una transformacion con oscuridad(no siempre ha de llevar una transfomacion). Funciona de la siguiente manera, la persona sella el objetivo, apariencia, personalidad, todo. 
+            Despues se transforma con oscuridad al objetivo, es una trasformacion temporal que no altera al objetivo (este cuerpo y mente permanecen sellados o solamente uno de los dos permanece sellado). Esa transformacion temporal
+            no es mas que una capa por encima del cuerpo de oscuridad que envuelve al cuerpo.
+            Este sello puede usar cualquier cosa lo bastante poderosa para resistir el poder sellado. Además una caracteristicas de una maldicion es que se suele crear una condicion para su liberacion. 
+            Para liberarlo se debe de aplicar magia al sello, aplicar mas magia de la que se usó, y cumplir la condicion.
+            Con eso se romperia la maldicion. Cuanto mas compleja es la condicion mas magia se ha de aplicar para crearla.
+            Ejemplos para entenderlo mejor:
+            1- Una mujer es violada y va a ser asesinada. Mientras la viola, debido a la desesperacion, los ojos se ponen amarillos y recita "Espero que te conviertas en la bestia que eres y que sufras, que jamas puedas disfrutar con una mujer."
+            2-
+            3-
+        Encantamiento:
+        Prision:
