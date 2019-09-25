@@ -63,6 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Cube_Render.cs" />
+    <Compile Include="Assets\Scripts\Instantiate.cs" />
+    <Compile Include="Assets\Scripts\LookAt.cs" />
+    <Compile Include="Assets\Scripts\Mouse.cs" />
     <Compile Include="Assets\Scripts\Translate_Rotate.cs" />
     <Compile Include="Assets\Scripts\Vectors.cs" />
     <Reference Include="Unity.Timeline.Editor">
