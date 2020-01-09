@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="TRex_Runner" company="" webLink="http://" view-date="2020-01-07" view-index="0" gantt-divider-location="1907" resource-divider-location="300" version="2.8.10" locale="es">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="417" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="292" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="292" order="2"/>
+        <field id="tpd1" name="Prioridad" width="267" order="3"/>
+        <field id="tpc0" name="Estado" width="318" order="4"/>
+        <field id="tpc2" name="Clase" width="317" order="5"/>
+        <option id="color.recent"><![CDATA[#ccffcc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Estado" type="custom" valuetype="text" defaultvalue="Nueva"/>
+            <taskproperty id="tpc2" name="Clase" type="custom" valuetype="text" defaultvalue="Desarrollo"/>
+        </taskproperties>
+        <task id="0" name="v1.0" color="#8cb6ce" meeting="false" start="2020-01-07" duration="2" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" expand="true">
+            <task id="4" name="Crear Player" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" expand="true">
+                <task id="18" name="Crear Animaciones" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="16" name="Crear Colliders" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="11" name="Crear Salto" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="10" name="Crear Agachado" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="19" name="Crear Muerte" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="20" name="Crear Fondo" meeting="false" start="2020-01-07" duration="2" complete="0" expand="true">
+                <task id="38" name="Fondo Blanco" color="#ccffcc" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-01-07" duration="2" complete="2" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="21" name="Scroll Fondo" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="23" name="Spawn Montañas Suelo" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="22" name="Spawn Nubes" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="24" name="Invertir Colores" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="25" name="GameManager" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true">
+                <task id="28" name="Iniciar Juego" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="39" name="Animacion Start Juego" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="30" name="Puntuacion" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="40" name="Conservar Puntuacion" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="29" name="Restart Juego" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="33" name="The End" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="26" name="Enemigos" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true">
+                <task id="35" name="Spawn Cacuts" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="36" name="Spawn Pajaros" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="34" name="Animacion Pajaros" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
