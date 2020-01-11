@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="TRex_Runner" company="" webLink="http://" view-date="2020-01-07" view-index="0" gantt-divider-location="1907" resource-divider-location="300" version="2.8.10" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="TRex_Runner" company="" webLink="http://" view-date="2020-01-07" view-index="0" gantt-divider-location="1907" resource-divider-location="300" version="2.8.10" locale="es">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="417" order="0"/>
@@ -53,7 +53,9 @@
                 <task id="10" name="Crear Agachado" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
                     <customproperty taskproperty-id="tpc0" value="Realizada"/>
                 </task>
-                <task id="19" name="Crear Muerte" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="19" name="Crear Muerte" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
             </task>
             <task id="20" name="Crear Fondo" meeting="false" start="2020-01-07" duration="2" complete="0" expand="true">
                 <task id="38" name="Fondo Blanco" color="#ccffcc" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-01-07" duration="2" complete="2" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
@@ -74,19 +76,25 @@
                 <task id="44" name="Canvas Puntuacion" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
                     <customproperty taskproperty-id="tpc0" value="Realizada"/>
                 </task>
-                <task id="30" name="Puntuacion" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="30" name="Puntuacion" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
                 <task id="40" name="Conservar Puntuacion" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
                 <task id="45" name="Canvas GameOver" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
                 <task id="29" name="Restart Juego" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
                 <task id="33" name="The End" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
             </task>
             <task id="26" name="Enemigos" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true">
-                <task id="35" name="Spawn Cacuts" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true">
-                    <task id="43" name="Canvas Punt" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
-                </task>
+                <task id="35" name="Spawn Cacuts" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
                 <task id="36" name="Spawn Pajaros" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
                 <task id="34" name="Animacion Pajaros" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="47" name="Cactus Prefab" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="48" name="Pajaro Prefab" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
             </task>
+            <task id="52" name="Sprite Die quitar blancos" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+            <task id="53" name="Colliders cambiar todos" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources/>

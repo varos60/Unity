@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Scrolling : MonoBehaviour
 {
-    public float scrollSpeed = 2.5f;
+    public float scrollSpeed = 5f;
     SpriteRenderer spriteRenderer;
     float groundSize_X;
 
@@ -15,7 +15,7 @@ public class Scrolling : MonoBehaviour
 
     void Start()
     {
-        groundSize_X = spriteRenderer.size.x;       
+        groundSize_X = spriteRenderer.size.x;        
     }
     
     public void Scrolling_object()
@@ -32,5 +32,10 @@ public class Scrolling : MonoBehaviour
         {
             transform.Translate(Vector2.right * groundSize_X * 2);
         }
+    }
+
+    public void Destroy_Object()
+    {                                
+        Destroy(transform.gameObject);        
     }
 }

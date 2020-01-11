@@ -64,6 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Background.cs" />
+    <Compile Include="Assets\Scripts\Destroy_Contact.cs" />
+    <Compile Include="Assets\Scripts\Enemies.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\PixelCamera.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />

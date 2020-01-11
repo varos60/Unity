@@ -91,4 +91,13 @@ public class Player : MonoBehaviour
             animator.SetBool("Ground", ground);
         }
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+        {
+            GameController.die = true;
+            animator.SetBool("Die", GameController.die);
+        }
+    }
 }
