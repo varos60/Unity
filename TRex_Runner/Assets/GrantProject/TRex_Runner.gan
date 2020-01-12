@@ -93,8 +93,6 @@
                 </task>
                 <task id="48" name="Pajaro Prefab" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="52" name="Sprite Die quitar blancos" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
-            <task id="53" name="Colliders cambiar todos" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources/>

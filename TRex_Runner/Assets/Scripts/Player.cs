@@ -23,7 +23,8 @@ public class Player : MonoBehaviour
         Begin();
         Jump();
         FlowJump();
-        Down(); 
+        Down();
+        Debug.Log(rb.velocity);
     }
 
     void Begin()
@@ -88,7 +89,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag != "Enemy")
         {
             ground = true;
-            animator.SetBool("Ground", ground);
+            animator.SetBool("Ground", ground);            
         }
     }
 
@@ -98,6 +99,8 @@ public class Player : MonoBehaviour
         {
             GameController.die = true;
             animator.SetBool("Die", GameController.die);
+            rb.velocity = Vector2.zero;
+            rb.gravityScale = 0;
         }
     }
 }

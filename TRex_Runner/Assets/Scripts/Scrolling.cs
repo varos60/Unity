@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Scrolling : MonoBehaviour
-{
-    public float scrollSpeed = 5f;
+{    
     SpriteRenderer spriteRenderer;
     float groundSize_X;
 
@@ -22,7 +21,7 @@ public class Scrolling : MonoBehaviour
     {
         if (GameController.run == true && GameController.die == false)
         {
-            transform.position += Vector3.left * scrollSpeed * Time.deltaTime;
+            transform.position += Vector3.left * GameController.scrollSpeed * Time.deltaTime;
         }
     }
 
