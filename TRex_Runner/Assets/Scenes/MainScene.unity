@@ -1002,7 +1002,13 @@ MonoBehaviour:
   hiScore_text: {fileID: 142061989}
   cactus_prefabs:
   - {fileID: 8980655002172232139, guid: 7eb9d1cf564c6e246a532737475fa43e, type: 3}
-  birds_prefabs: {fileID: 0}
+  - {fileID: 3245590559976101695, guid: f4872730ef05ae944b92d59ed3ea3f57, type: 3}
+  - {fileID: 7723124927558709993, guid: d54f4d5cb826b734da095a39a5506575, type: 3}
+  - {fileID: 601639136338083084, guid: d12c7b2eebd20b346bcf4287ccc5760b, type: 3}
+  - {fileID: 7172229105433702126, guid: 262eeb68b08f70145b968cb46b90ad2f, type: 3}
+  - {fileID: 3678667643403012211, guid: 95f4f535adce7664ba0b62e5833846d1, type: 3}
+  birds_prefabs: {fileID: 79516742475044702, guid: 7fb987656b6f2bb49bfab9bba0291dcb,
+    type: 3}
   enemyContainer: {fileID: 1077030787}
 --- !u!1 &1726169497
 GameObject:

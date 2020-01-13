@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     public Text hiScore_text;
     public static float scrollSpeed = 5f;
     int score;
+    float scoreTimer = 0.1f;
     public GameObject[] cactus_prefabs;
     public GameObject birds_prefabs;
     public GameObject enemyContainer;
@@ -24,7 +25,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(Start_Coroutune());
+        StartCoroutine(Start_Coroutine());
         StartCoroutine(Spawner_Enemies());
     }
 
@@ -44,7 +45,7 @@ public class GameController : MonoBehaviour
         return adicionalText + text;
     }
 
-    IEnumerator Start_Coroutune()
+    IEnumerator Start_Coroutine()
     {
         while (true)
         {
@@ -60,11 +61,10 @@ public class GameController : MonoBehaviour
     {                            
         score++;
         SetText(score_text, TextFormater(score));
-        float scoreTimer = 0.1f;
-        if (score >= 600)
+        if (score % 100 == 0)
         {
-            scrollSpeed = 6.5f;
-            scoreTimer = 0.05f;
+            scrollSpeed += 0.2f;
+            scoreTimer -= 0.01f;
         }
         yield return new WaitForSeconds(scoreTimer);            
     }
@@ -78,20 +78,21 @@ public class GameController : MonoBehaviour
             if (run == true && die == false)
             {
                 float spawnTimer = Random.Range(1f, 2f);
-                int maxRandom = 7;
-                if (score >= 500)
+                int maxRandom = 6;
+                if (score >= 400)
                 {
-                    maxRandom = 12;
+                    maxRandom = 11;
                 }
                 int randomEnemy = Random.Range(0, maxRandom);
-                if (randomEnemy >= 8)
-                {
-                    Debug.Log("Pajaro");
+                if (randomEnemy >= 6)
+                {                    
+                    float randomPosition = Random.Range(-1f, 0.1f);
+                    GameObject bird = Instantiate(birds_prefabs, enemyContainer.transform, true);
+                    bird.transform.position = new Vector3 (bird.transform.position.x, randomPosition, 1);                    
                 }
                 else
                 {
-                    Debug.Log("Cactus");
-                    Instantiate(cactus_prefabs[0], enemyContainer.transform, true);
+                    Instantiate(cactus_prefabs[randomEnemy], enemyContainer.transform, true);
                 }
                 yield return new WaitForSeconds(spawnTimer);
             }

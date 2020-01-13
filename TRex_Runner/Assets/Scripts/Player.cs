@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     bool down = false;
     Animator animator;
     Rigidbody2D rb;
-    public float jumpForce = 375f;
+    public float jumpForce = 385f;
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2f;
 
@@ -23,8 +23,7 @@ public class Player : MonoBehaviour
         Begin();
         Jump();
         FlowJump();
-        Down();
-        Debug.Log(rb.velocity);
+        Down();        
     }
 
     void Begin()

@@ -40,7 +40,8 @@
             <taskproperty id="tpc2" name="Clase" type="custom" valuetype="text" defaultvalue="Desarrollo"/>
         </taskproperties>
         <task id="0" name="v1.0" color="#8cb6ce" meeting="false" start="2020-01-07" duration="2" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" expand="true">
-            <task id="4" name="Crear Player" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" expand="true">
+            <task id="4" name="Crear Player" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                <customproperty taskproperty-id="tpc0" value="Realizada"/>
                 <task id="18" name="Crear Animaciones" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
                     <customproperty taskproperty-id="tpc0" value="Realizada"/>
                 </task>
@@ -84,14 +85,23 @@
                 <task id="29" name="Restart Juego" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
                 <task id="33" name="The End" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="26" name="Enemigos" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true">
-                <task id="35" name="Spawn Cacuts" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
-                <task id="36" name="Spawn Pajaros" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
-                <task id="34" name="Animacion Pajaros" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+            <task id="26" name="Enemigos" color="#000000" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                <task id="35" name="Spawn Cacuts" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="36" name="Spawn Pajaros" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="34" name="Animacion Pajaros" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
                 <task id="47" name="Cactus Prefab" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
                     <customproperty taskproperty-id="tpc0" value="Realizada"/>
                 </task>
-                <task id="48" name="Pajaro Prefab" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="48" name="Pajaro Prefab" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
             </task>
         </task>
     </tasks>

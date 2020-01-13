@@ -5,15 +5,18 @@ using UnityEngine;
 public class Enemies : MonoBehaviour
 {
     Scrolling scrolling;
+    Animator animator;
 
     void Awake()
     {
         scrolling = GetComponent<Scrolling>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        scrolling.Scrolling_object();                
+        scrolling.Scrolling_object();
+        DisableAnimation();
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -22,5 +25,16 @@ public class Enemies : MonoBehaviour
         {
             scrolling.Destroy_Object();
         }        
+    }
+
+    void DisableAnimation()
+    {
+        if (GameController.die == true)
+        {
+            if (animator)
+            {
+                animator.enabled = false;
+            }
+        }
     }
 }
