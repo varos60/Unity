@@ -23,7 +23,8 @@ public class Player : MonoBehaviour
         Begin();
         Jump();
         FlowJump();
-        Down();        
+        Down();
+        //Debug.Log(rb.velocity);
     }
 
     void Begin()
@@ -63,7 +64,8 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             if (GameController.run == true && GameController.die == false && ground == true)
-            {                
+            {
+                Debug.Log(Input.GetKey(KeyCode.Space));
                 ground = false;                               
                 rb.velocity = Vector2.up * jumpForce * Time.deltaTime;
                 animator.SetBool("Ground", ground);
@@ -79,7 +81,7 @@ public class Player : MonoBehaviour
         }
         else if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
         {            
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier) * Time.deltaTime;
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier) * Time.deltaTime;            
         }
     }
 
