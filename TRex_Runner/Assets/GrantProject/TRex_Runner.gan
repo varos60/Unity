@@ -65,8 +65,12 @@
                 <task id="21" name="Scroll Fondo" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
                     <customproperty taskproperty-id="tpc0" value="Realizada"/>
                 </task>
-                <task id="23" name="Spawn Montañas Suelo" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
-                <task id="22" name="Spawn Nubes" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
+                <task id="23" name="Spawn Montañas Suelo" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
+                <task id="22" name="Spawn Nubes" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                </task>
                 <task id="24" name="Invertir Colores" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
             </task>
             <task id="25" name="GameManager" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true">
@@ -85,8 +89,10 @@
                 </task>
                 <task id="45" name="Canvas GameOver" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
                     <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                    <task id="29" name="Restart Juego" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
+                        <customproperty taskproperty-id="tpc0" value="Realizada"/>
+                    </task>
                 </task>
-                <task id="29" name="Restart Juego" meeting="false" start="2020-01-07" duration="1" complete="0" expand="true"/>
                 <task id="33" name="The End" color="#8cb6ce" meeting="false" start="2020-01-07" duration="1" complete="0" thirdDate="2020-01-07" thirdDate-constraint="0" priority="4" expand="true">
                     <customproperty taskproperty-id="tpc0" value="Realizada"/>
                 </task>
