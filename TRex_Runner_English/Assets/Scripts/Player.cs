@@ -3,14 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
-{    
+{
+    bool ground;
+    bool down;
+    Animator animator;
+    Rigidbody2D rb;
     //public float fallMultiplier = 2.5f;
     //public float lowJumpMultiplier = 2f;
 
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        ground = true;
+        down = false;
+    }
     void FixedUpdate()
     {
+        Begin();
         //FlowJump();
         //Down();        
+    }
+
+    void Begin()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (GameController.run && GameController.die == false)
+            {
+                GameController.run = true;
+                animator.SetBool("Run", GameController.run);
+            }
+        }
     }
 
     /*void Down()

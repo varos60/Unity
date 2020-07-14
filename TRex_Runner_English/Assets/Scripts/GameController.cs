@@ -4,7 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
-{  
+{
+    public static bool run;
+    public static bool die;
+    public static float scrollSpeed;
+    int score;
+    float scoreTimer;
     public GameObject[] cactus_prefabs;
     public GameObject birds_prefabs;
     public GameObject enemyContainer;
@@ -13,6 +18,14 @@ public class GameController : MonoBehaviour
     public GameObject cloudsContainer;
     public GameObject[] mountain_prefabs;
     public GameObject mountainContainer;
+
+    void Awake()
+    {
+        run = false;
+        die = false;
+        scrollSpeed = 0.1f;
+        score = 0;
+    }
 
     void Start()
     {
