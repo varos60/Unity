@@ -6,7 +6,7 @@
         <field id="tpd5" name="Fecha de fin" width="355" order="2"/>
         <field id="tpd1" name="Prioridad" width="331" order="3"/>
         <field id="tpc0" name="Progreso" width="380" order="4"/>
-        <timeline><![CDATA[6,10]]></timeline>
+        <timeline><![CDATA[10,6]]></timeline>
         <option id="color.recent"><![CDATA[#ff0000 #ff0033]]></option>
     </view>
     <view id="resource-table">
@@ -78,7 +78,7 @@
                 <task id="26" name="Menu Cuadro" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                 <task id="27" name="Menu Botones" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="1" name="Programacion" color="#8cb6ce" meeting="false" start="2021-01-22" duration="2" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" expand="true">
+            <task id="1" name="Programacion" color="#8cb6ce" meeting="false" start="2021-01-22" duration="3" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" expand="true">
                 <task id="55" name="Mundo" meeting="false" start="2021-01-22" duration="1" complete="0" expand="false">
                     <task id="118" name="Tamaño de Sprites a 32 px y Pixel Perfect" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="62" name="Colocar Elementos del Mapa" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
@@ -91,9 +91,11 @@
                     <task id="71" name="Ampliar Zoom como En las Fotos o Alejar (max Min)" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="72" name="Poner Limites al Mover" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                 </task>
-                <task id="73" name="Objeto Peces" meeting="false" start="2021-01-22" duration="2" complete="0" expand="false">
+                <task id="73" name="Objeto Peces" meeting="false" start="2021-01-22" duration="3" complete="0" expand="false">
                     <task id="74" name="Crear Clase" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
-                    <task id="75" name="Asociar Sprite" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
+                    <task id="75" name="Asociar Sprite" color="#8cb6ce" meeting="false" start="2021-01-22" duration="3" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" priority="2" expand="true">
+                        <customproperty taskproperty-id="tpc0" value="FIN"/>
+                    </task>
                     <task id="85" name="Metodo Nadar" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="86" name="Metodo Spawn de un estremo a otro" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="76" name="Crear Animacion Nadar" color="#8cb6ce" meeting="false" start="2021-01-22" duration="2" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" priority="2" expand="true">
