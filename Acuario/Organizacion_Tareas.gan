@@ -6,7 +6,7 @@
         <field id="tpd5" name="Fecha de fin" width="355" order="2"/>
         <field id="tpd1" name="Prioridad" width="331" order="3"/>
         <field id="tpc0" name="Progreso" width="380" order="4"/>
-        <timeline><![CDATA[10,6]]></timeline>
+        <timeline><![CDATA[6,10]]></timeline>
         <option id="color.recent"><![CDATA[#ff0000 #ff0033]]></option>
     </view>
     <view id="resource-table">
@@ -39,7 +39,7 @@
             <taskproperty id="tpc0" name="Progreso" type="custom" valuetype="text" defaultvalue="NUEVA"/>
         </taskproperties>
         <task id="50" name="v1.0" color="#8cb6ce" meeting="false" start="2021-01-22" duration="3" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" expand="true">
-            <task id="0" name="Diseño" meeting="false" start="2021-01-22" duration="3" complete="0" expand="false">
+            <task id="0" name="Diseño" meeting="false" start="2021-01-22" duration="3" complete="0" expand="true">
                 <task id="6" name="Sprite Pez" color="#ff0033" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-01-22" duration="1" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" priority="2" expand="true">
                     <depend id="10" type="2" difference="0" hardness="Strong"/>
                     <customproperty taskproperty-id="tpc0" value="FIN"/>
@@ -76,7 +76,9 @@
                 <task id="64" name="Iconos Cuadro" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                 <task id="138" name="Icono" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                 <task id="26" name="Menu Cuadro" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
-                <task id="27" name="Menu Botones" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
+                <task id="27" name="Menu Botones" color="#8cb6ce" meeting="false" start="2021-01-22" duration="3" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" priority="2" expand="true">
+                    <customproperty taskproperty-id="tpc0" value="FIN"/>
+                </task>
             </task>
             <task id="1" name="Programacion" color="#8cb6ce" meeting="false" start="2021-01-22" duration="3" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" expand="true">
                 <task id="55" name="Mundo" meeting="false" start="2021-01-22" duration="1" complete="0" expand="false">
@@ -108,6 +110,7 @@
                     <task id="81" name="Crear Mezcla Color Nacimiento" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="82" name="Crear Morir de Viejo" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="140" name="Añadir Burbujas" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
+                    <task id="144" name="Nombre Pez y Sexo encima del Pez" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                 </task>
                 <task id="58" name="Objeto Tiburones" meeting="false" start="2021-01-22" duration="1" complete="0" expand="false">
                     <task id="88" name="Crear Clase" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
@@ -123,9 +126,12 @@
                     <task id="108" name="Crear Morir de Viejo" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="109" name="Matar Peces" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="142" name="Añadir Burbujas" color="#8cb6ce" meeting="false" start="2021-01-22" duration="1" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" expand="true"/>
+                    <task id="146" name="Nombre Tibu y Sexo encima del Tibu" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                 </task>
-                <task id="59" name="Menu" meeting="false" start="2021-01-22" duration="1" complete="0" expand="false">
-                    <task id="110" name="Crear Botones" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
+                <task id="59" name="Menu" meeting="false" start="2021-01-22" duration="3" complete="0" expand="true">
+                    <task id="110" name="Crear Botones" color="#8cb6ce" meeting="false" start="2021-01-22" duration="3" complete="0" thirdDate="2021-01-22" thirdDate-constraint="0" priority="2" expand="true">
+                        <customproperty taskproperty-id="tpc0" value="FIN"/>
+                    </task>
                     <task id="139" name="Crear Fondo para Menus" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="111" name="Boton Salir" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                     <task id="112" name="Boton Cargar" meeting="false" start="2021-01-22" duration="1" complete="0" expand="false">
@@ -158,7 +164,7 @@
                     <task id="134" name="Autoguardado cada 1 min" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="2" name="Sonido" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true">
+            <task id="2" name="Sonido" meeting="false" start="2021-01-22" duration="1" complete="0" expand="false">
                 <task id="46" name="Sonido de Mar Relajante" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
                 <task id="135" name="Sonido Texto" meeting="false" start="2021-01-22" duration="1" complete="0" expand="true"/>
             </task>
